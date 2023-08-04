@@ -1,0 +1,182 @@
+.container {
+  max-width: 1320px;
+  padding: 0 12px;
+  margin: 0 auto;
+  @media (max-width: 768px) {
+    padding: 0 36px;
+  }
+  @media (max-width: 375px) {
+    padding: 0 14px;
+  }
+}
+
+.section-title {
+  font-weight: bold;
+  text-align: center;
+  font-size: 48px;
+  margin-bottom: 48px;
+  @media (max-width: 375px) {
+    font-size: 24px;
+    margin-bottom: 24px;
+  }
+}
+
+/* 背景 */
+.bg-primary {
+  background-color: #aa0601;
+}
+.bg-secondary {
+  background-color: #fbf2f2;
+}
+.bg-white {
+  background: #fff;
+}
+
+/* 排版 */
+.block{
+  display: block;
+}
+.flex {
+  display: flex;
+}
+.flex-column{
+  flex-direction: column;
+}
+.flex-wrap{
+  flex-wrap: wrap;
+}
+.justify-content-between {
+  justify-content: space-between;
+}
+.align-items-center {
+  align-items: center;
+}
+@media (max-width:768px) {
+  .block-md{
+    display: block;
+  }
+}
+@media (max-width:375px) {
+  .none-sm{
+    display: none;
+  }
+  .block-sm{
+    display: block;
+  }
+  .justify-content-sm-center {
+    justify-content: center;
+  }
+}
+
+/* 寬度 */
+.w-100{
+  width: 100%;
+}
+
+/* 文字樣式 */
+.text-right {
+  text-align: right;
+}
+.text-center {
+  text-align: center;
+}
+.text-bold {
+  font-weight: bold;
+}
+.text-none {
+  text-decoration: none;
+}
+.text-white {
+  color: #fff;
+}
+.text-primary {
+  color: #650300;
+}
+.text-red {
+  color: #aa0601;
+}
+.text-italic {
+  font-style: italic;
+}
+
+/* 文字大小 */
+.fs-14 {
+  font-size: 14px;
+}
+.fs-20 {
+  font-size: 20px;
+}
+.fs-24 {
+  font-size: 24px;
+}
+.fs-36 {
+  font-size: 36px;
+}
+.fs-48 {
+  font-size: 48px;
+}
+.fs-64 {
+  font-size: 64px;
+}
+@media (max-width:768px) {
+  .fs-md-16{
+    font-size: 16px;
+  }
+}
+@media (max-width:375px) {
+  .fs-sm-16 {
+    font-size: 16px;
+  }
+  .fs-sm-24 {
+    font-size: 24px;
+  }
+}
+
+/* 間距 */
+.py-80 {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.mr-48{
+  margin-right: 48px;
+}
+.mb-4 {
+  margin-bottom: 4px;
+}
+.mb-8 {
+  margin-bottom: 8px;
+}
+.mb-16 {
+  margin-bottom: 16px;
+}
+.mb-24 {
+  margin-bottom: 24px;
+}
+.mb-48 {
+  margin-bottom: 48px;
+}
+@media (max-width:768px) {
+  .py-md-36 {
+    padding-right: 36px;
+    padding-bottom: 36px;
+  }
+  .mb-md-24{
+    margin-bottom: 24px;
+  }
+}
+@media (max-width:375px) {
+  .p-sm-0{
+    padding: 0;
+  }
+  .py-sm-40{
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .mb-sm-8 {
+    margin-bottom: 8px;
+  }
+  .mb-sm-24 {
+    margin-bottom: 24px;
+  }
+}
+
