@@ -1,0 +1,46 @@
+.stores {
+  padding-top: 96px;
+  @include pad{
+    padding-top: 80px;
+  }
+  @include mobile{
+    padding-top: 40px;
+  }
+  h2 {
+    border-left: 8px solid $primary;
+  }
+  label{
+    flex-shrink: 0;
+  }
+  select {
+    width: 304px;
+    color: #495057;
+  }
+
+  &-list {
+    img {
+      height: 224px;
+    }
+
+    >li {
+      width: calc((100% - 48px) / 3);
+
+      @include pad {
+        width: calc((100% - 24px) / 2);
+      }
+
+      @include mobile {
+        width: 100%;
+      }
+    }
+
+    h3 {
+      border: 1px solid #00000020;
+    }
+  }
+
+  .store-text {
+    border: 1px solid #00000020;
+
+  }
+}

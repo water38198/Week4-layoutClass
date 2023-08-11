@@ -1,0 +1,88 @@
+.products {
+
+  &-banner {
+    img {
+      height: 296px;
+      object-fit: cover;
+
+      @include mobile {
+        height: 136px;
+      }
+    }
+
+    &.optical {
+      img {
+        @include pad {
+          &:first-child {
+            content: url("../images/product/product-header-sm-1.png");
+          }
+
+          &:last-child {
+            content: url("../images/product/product-header-sm-2.png");
+          }
+        }
+      }
+    }
+
+    &.sunglass {
+      img {
+        @include pad {
+          &:first-child {
+            content: url("../images/product/product-header-sm-3.png");
+          }
+
+          &:last-child {
+            content: url("../images/product/product-header-sm-4.png");
+          }
+        }
+      }
+    }
+  }
+
+  &-list {
+
+
+    &.optical {
+      li {
+        width: calc(25% - 18px);
+              @include pad {
+        width: calc(50% - 12px);
+
+        img {
+          width: 100%;
+          max-height: 168px;
+        }
+      }
+
+      @include mobile {
+        width: 100%;
+      }
+      }
+    }
+
+    &.sunglass {
+      li {
+        width: calc((100% - 48px) / 3);
+              @include pad {
+        width: calc(50% - 12px);
+
+        img {
+          width: 100%;
+          max-height: 168px;
+        }
+      }
+
+      @include mobile {
+        width: 100%;
+      }
+      }
+
+    }
+  }
+
+  &-color {
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+  }
+}

@@ -1,4 +1,33 @@
-.footer{
-  background: #69F0AE;
-  font-size: 64px;
+.footer {
+  &-contact {
+    @include mobile {
+      flex-direction: row-reverse;
+    }
+  }
+
+  &-navbar {
+    max-width: 464px;
+  }
+
+  &-social {
+    img {
+      width: 48px;
+
+      @include pad {
+        width: 40px;
+      }
+
+      @include mobile {
+        width: 24px;
+      }
+    }
+  }
+
+  &-info {
+    font-family: "Noto Sans TC", sans-serif;
+    a {
+      word-break: break-all
+    }
+  }
 }
+

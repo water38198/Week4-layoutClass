@@ -1,12 +1,21 @@
 @import './base/rest.scss';
 @import './base/typography';
+@import './base/variables';
 @import './base/base.scss';
 
+@import './utilities/mixins';
 @import './utilities/helper.scss';
 
 
-@import './layout/header.scss';
+@import './layout/nav.scss';
 @import './layout/footer.scss';
+@import './layout/product-category';
+@import './layout/pagination';
 
 
 @import './pages/index.scss';
+@import './pages/products';
+@import './pages/stores';
+@import "./pages/single-store"
+
+

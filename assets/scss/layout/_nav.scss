@@ -1,0 +1,23 @@
+.nav {
+  img {
+    width: 80px;
+  }
+
+  ul {
+    max-width: 492px;
+  }
+
+  li {
+    @include mobile {
+      padding: 11px 0;
+      border: 1px solid white;
+    }
+
+    a {
+      &:hover {
+        background-color: $primary-dark;
+      }
+    }
+  }
+
+}

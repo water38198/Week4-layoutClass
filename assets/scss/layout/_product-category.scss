@@ -1,0 +1,19 @@
+.product-category{
+  padding-left: 0;
+  padding-right: 0;
+  li{
+    border-right: 1px solid #DCDCDC;
+    border-left: 1px solid #DCDCDC;
+  }
+  a.active{
+      border-bottom: 8px solid #aa0601;
+      padding-bottom: 16px;
+      @include pad{
+        padding-bottom: 8px;
+      }
+      cursor: pointer;
+      pointer-events: none;
+    }
+    
+  
+}

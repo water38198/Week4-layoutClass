@@ -1,0 +1,33 @@
+.single-store {
+  &-info {
+    flex-basis: 526px;
+
+    img {
+      height: 224px;
+      width: 100%;
+    }
+    @include pad{
+      flex-basis: 100%;
+      >div{
+        width: calc((100% - 24px) / 2);
+      }
+    }
+    @include mobile{
+            >div{
+        width: 100%
+      }
+    }
+  }
+
+  &-map {
+    // width: calc(100% - 24px );
+    flex-basis: 746px;
+    img{
+      height: 100%;
+    }
+  }
+
+  h3 {
+    border: 1px solid #00000020;
+  }
+}
