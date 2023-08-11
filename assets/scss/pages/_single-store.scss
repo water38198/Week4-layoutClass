@@ -3,17 +3,21 @@
     flex-basis: 526px;
 
     img {
-      height: 224px;
+      min-height: 224px;
+      height: 100%;
       width: 100%;
     }
-    @include pad{
+
+    @include pad {
       flex-basis: 100%;
-      >div{
+
+      >div {
         width: calc((100% - 24px) / 2);
       }
     }
-    @include mobile{
-            >div{
+
+    @include mobile {
+      >div {
         width: 100%
       }
     }
@@ -22,7 +26,8 @@
   &-map {
     // width: calc(100% - 24px );
     flex-basis: 746px;
-    img{
+
+    img {
       height: 100%;
     }
   }

@@ -2,11 +2,11 @@
 
   &-banner {
     img {
-      height: 296px;
+      max-height: 296px;
       object-fit: cover;
 
       @include mobile {
-        height: 136px;
+        max-height: 136px;
       }
     }
 
@@ -40,8 +40,6 @@
   }
 
   &-list {
-
-
     &.optical {
       li {
         width: calc(25% - 18px);

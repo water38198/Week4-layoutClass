@@ -19,7 +19,8 @@
 
   &-list {
     img {
-      height: 224px;
+      max-height: 224px;
+      height: 100%;
     }
 
     >li {
