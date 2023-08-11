@@ -43,36 +43,38 @@
     &.optical {
       li {
         width: calc(25% - 18px);
-              @include pad {
-        width: calc(50% - 12px);
 
-        img {
-          width: 100%;
-          max-height: 168px;
+        @include pad {
+          width: calc(50% - 12px);
+
+          img {
+            width: 100%;
+            max-height: 168px;
+          }
         }
-      }
 
-      @include mobile {
-        width: 100%;
-      }
+        @include mobile {
+          width: 100%;
+        }
       }
     }
 
     &.sunglass {
       li {
         width: calc((100% - 48px) / 3);
-              @include pad {
-        width: calc(50% - 12px);
 
-        img {
-          width: 100%;
-          max-height: 168px;
+        @include pad {
+          width: calc(50% - 12px);
+
+          img {
+            width: 100%;
+            max-height: 168px;
+          }
         }
-      }
 
-      @include mobile {
-        width: 100%;
-      }
+        @include mobile {
+          width: 100%;
+        }
       }
 
     }

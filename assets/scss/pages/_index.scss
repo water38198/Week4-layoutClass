@@ -17,7 +17,7 @@
     background-image: url(../images/home-header-sm.png);
   }
 
-  a:hover{
+  a:hover {
     background: $primary-dark;
   }
 }
@@ -188,7 +188,8 @@
   @include pad {
     padding: 16px 136px;
   }
-  @include mobile{
+
+  @include mobile {
     padding: 16px 0;
   }
 }
